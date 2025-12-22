@@ -1,64 +1,51 @@
 # SITE CONFIGURATION
-title: Sleek # your site title
-author: toto6343 # You :P
-description: > # Meta description of Homepage
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/sleek" # the subpath of your site, e.g. /blog
-url: "https://janczizikow.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+title: Toto Dev Blog
+author: Woohyuk Kim
+description: >
+  백엔드 개발자를 목표로 공부한 내용을 기록하는 기술 블로그입니다.
+  Java, Spring, Git, Cloud 학습 내용을 정리합니다.
 
-# SEO PLUGIN
+baseurl: "" 
+url: "https://toto6343.github.io"
+
+# SEO / SOCIAL
 social:
   name: Woohyuk Kim
   links:
-    - https://twitter.com/BenBalter
-    - https://www.facebook.com/ben.balter
-    - https://www.linkedin.com/in/BenBalter
-    - https://plus.google.com/+BenBalter
-    - https://github.com/benbalter
-    - https://keybase.io/benbalter
+    - https://github.com/toto6343
+    - https://www.linkedin.com/in/woohyukkim0202   
 
 # THEME SETTINGS
-navigation: # Navigation links
-  - {name: 'Home', link: '/'}
-  - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
+navigation:
+  - { name: "Home", link: "/" }
+  - { name: "About", link: "/about" }
+  - { name: "Posts", link: "/posts" }
 
 tagline: >
-  Modern Jekyll theme focused on speed performance &amp; SEO best practices
+  Backend Developer | Java · Spring · Cloud
 
-hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+hero_img: posts/sleek_lg.jpg
 
-email: yongbum0202@naver.com # email for form submission
+email: yongbum0202@naver.com
 
-github_username:  toto6343 # replace with your_github_username or comment to remove link from footer
-
-disqus:
-  shortname: janczizikow # to enable comments replace with your_disqus_shortname
-
-# google_tag_manager: GTM-XXXXXXX # Uncomment to enable GTM. Replace GTM-XXXXXXX with your GTM container ID
+github_username: toto6343
 
 service_worker: true
 
 # BUILD SETTINGS
 markdown: kramdown
-highlighter: rouge # or pygments or null
-# theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
+highlighter: rouge
+
 exclude:
   - README.md
   - node_modules
-  - script
-  - package.json
-  - package-lock.json
   - Gemfile
   - Gemfile.lock
   - vendor
-  - npm-debug.log
-  - gulpfile.js
-  - sleek.jpg
 
-include: ['_pages']
+include:
+  - _pages
+
 permalink: /:title/
 
 compress_html:
