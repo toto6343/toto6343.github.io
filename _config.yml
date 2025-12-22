@@ -5,7 +5,7 @@ description: >
   백엔드 개발자를 목표로 공부한 내용을 기록하는 기술 블로그입니다.
   Java, Spring, Git, Cloud 학습 내용을 정리합니다.
 
-baseurl: "https://toto6343.github.io"
+baseurl: ""
 url: "https://toto6343.github.io"
 
 # SEO / SOCIAL
