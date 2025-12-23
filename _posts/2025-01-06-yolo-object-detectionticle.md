@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "YOLO 프로젝트로 객체 탐지(Object Detection) 이해하기"
-featured-img: yolo
+featured-img: intersection
 categories: [ComputerVision, DeepLearning, Project]
 ---
 
@@ -65,3 +65,4 @@ Computer Vision 분야에서 왜 YOLO가 많이 사용되는지 이해할 수 �
 
 추후에는 **YOLOv8**, **커스텀 데이터 학습**,  
 그리고 **실시간 스트리밍 적용**까지 확장해볼 계획입니다 🚀
+
