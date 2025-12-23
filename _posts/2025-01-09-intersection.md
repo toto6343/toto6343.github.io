@@ -2,6 +2,7 @@
 layout: post
 title: "교차로 돌발진입 감지 시스템: Intersection 프로젝트 소개"
 featured-img: intersection
+slug: intersection
 categories: [AI, ComputerVision, Project]
 mathjax: true
 ---
