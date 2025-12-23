@@ -9,32 +9,38 @@ layout: compress
   <body class="site">
 
     {% if site.google_tag_manager %}
-
       <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden">
+        </iframe>
+      </noscript>
       <!-- End Google Tag Manager (noscript) -->
-
     {% endif %}
 
     {% include header.html %}
 
-    <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/_img/posts/{{ site.hero_img }}">
+    <!-- Hero Section -->
+    <div
+      class="hero lazyload"
+      data-bg="{{ site.baseurl }}/_img/{{ site.hero_img }}">
       <div class="hero__wrap">
         <h1 class="hero__title">{{ site.title | escape }}</h1>
         <p class="hero__meta">{{ site.tagline }}</p>
       </div>
     </div>
 
+    <!-- Main Content -->
     <main class="site__content">
       <section class="blog">
         <div class="container">
-          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
-
+          <div class="post-list" itemscope itemtype="http://schema.org/Blog">
             {% for post in site.posts %}
               {% include card.html %}
             {% endfor %}
-
             <!-- {% include pagination.html %} -->
           </div>
         </div>
