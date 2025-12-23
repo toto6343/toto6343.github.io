@@ -3,7 +3,7 @@ layout: post
 title: "Paper Summary Agent: 논문 요약을 자동화하는 에이전트 만들기"
 categories: [AI, NLP, Project]
 featured-img: paper
-slug: paper
+slug: paper-summary-agent
 ---
 
 ## 프로젝트 소개
@@ -72,6 +72,7 @@ class PaperSummaryAgent:
         sections = self.split_sections(paper_text)
         summaries = self.summarize(sections)
         return self.merge(summaries)
+
 
 
 
