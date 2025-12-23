@@ -45,6 +45,7 @@ exclude:
 
 include:
   - _pages
+  - _img
 
 permalink: /:slug/
 
