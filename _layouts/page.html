@@ -4,12 +4,10 @@ title: All Posts
 permalink: /posts/
 ---
 
-<div class="posts-archive">
-  <p class="archive-meta">Total {{ site.posts.size }} posts</p>
-  
+<section class="blog">
   <div class="post-list" itemscope itemtype="http://schema.org/Blog">
     {% for post in site.posts %}
       {% include card.html %}
     {% endfor %}
   </div>
-</div>
+</section>
