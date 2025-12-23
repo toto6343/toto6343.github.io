@@ -14,8 +14,9 @@
     {% if post.featured-img %}
       <figure class="post-card__thumb">
         <img
-          src="{{ site.baseurl }}/_img/posts/{{ post.featured-img }}.jpg"
+          src="{{ site.baseurl }}/_img/posts/{{ post.featured-img }}"
           alt="{{ post.title }}"
+          loading="lazy"
         />
       </figure>
     {% else %}
@@ -29,7 +30,9 @@
     <div class="post-card__header">
       <h2>{{ post.title | strip_html | truncate: 50 }}</h2>
       <span class="post-card__meta">
-        <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+        <time datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date: "%Y-%m-%d" }}
+        </time>
       </span>
     </div>
 
