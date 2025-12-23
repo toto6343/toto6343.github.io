@@ -5,6 +5,7 @@ featured-img: intersection.jpg
 slug: intersection
 categories: [AI, ComputerVision, Project]
 mathjax: true
+date: 2025-01-09
 ---
 
 ## 프로젝트 개요
