@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TravelMaker: 여행 예약 & 여행 기록 플랫폼 만들기"
-featured-img: travel
+featured-img: _img/travel.jpg
 categories: [Web, Project, Travel]
 ---
 
