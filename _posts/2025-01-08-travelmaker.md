@@ -4,6 +4,7 @@ title: "TravelMaker: 여행 예약 & 여행 기록 플랫폼 만들기"
 featured-img: travel.jpg
 slug: travel
 categories: [Web, Project, Travel]
+date: 2025-01-08
 ---
 
 ## TravelMaker 프로젝트 소개
