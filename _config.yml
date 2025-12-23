@@ -30,7 +30,7 @@ email: yongbum0202@naver.com
 
 github_username: toto6343
 
-service_worker: true
+service_worker: false
 
 # BUILD SETTINGS
 markdown: kramdown
