@@ -4,7 +4,6 @@ title: "교차로 돌발진입 감지 시스템: Intersection 프로젝트 소�
 featured-img: intersection.jpg
 slug: intersection
 categories: [AI, ComputerVision, Project]
-mathjax: true
 date: 2025-01-09
 ---
 
